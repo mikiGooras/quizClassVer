@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B114D557279F220200DA6EA4 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B114D556279F220200DA6EA4 /* main.cpp */; };
+		B114D566279F25DA00DA6EA4 /* question.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B114D564279F25DA00DA6EA4 /* question.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		B114D553279F220200DA6EA4 /* quizClassVer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = quizClassVer; sourceTree = BUILT_PRODUCTS_DIR; };
 		B114D556279F220200DA6EA4 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B114D564279F25DA00DA6EA4 /* question.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = question.cpp; sourceTree = "<group>"; };
+		B114D565279F25DA00DA6EA4 /* question.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = question.hpp; sourceTree = "<group>"; };
+		B114D569279F2AD200DA6EA4 /* questions.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = questions.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,9 @@
 			isa = PBXGroup;
 			children = (
 				B114D556279F220200DA6EA4 /* main.cpp */,
+				B114D564279F25DA00DA6EA4 /* question.cpp */,
+				B114D565279F25DA00DA6EA4 /* question.hpp */,
+				B114D569279F2AD200DA6EA4 /* questions.txt */,
 			);
 			path = quizClassVer;
 			sourceTree = "<group>";
@@ -119,6 +126,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B114D557279F220200DA6EA4 /* main.cpp in Sources */,
+				B114D566279F25DA00DA6EA4 /* question.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
